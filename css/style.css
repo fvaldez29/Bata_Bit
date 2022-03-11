@@ -475,3 +475,22 @@ header img{
     line-height: 1.8rem;
     color: #808080;
 }
+.background-img{
+    height: 400px;
+    width: 100%;
+    background-image: url(../assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.background-img{
+    display: flex;
+    place-content: center;
+}
+.texto{
+    margin-top: 55px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    list-style: 2.6rem;
+    color: var(--just-white);
+}
