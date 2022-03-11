@@ -350,7 +350,7 @@ header img{
 .product-cards--container .clock{
     display: inline-block;
     width: 20px;
-    height: 20px;
+    min-height: 20px;
     margin-bottom: 10px;
     background-image: url(../assets/icons/clock.svg);
     background-size: cover;
@@ -374,7 +374,7 @@ header img{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin-top: 15px;
     margin: 15px auto;
     padding: 15px;
@@ -409,7 +409,7 @@ header img{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin-top: 15px;
     margin: 15px auto;
     padding: 15px;
@@ -444,7 +444,7 @@ header img{
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin-top: 15px;
     margin: 15px auto;
     padding: 15px;
@@ -476,21 +476,26 @@ header img{
     color: #808080;
 }
 .background-img{
-    height: 400px;
+    height: 50vh;
     width: 100%;
+    min-width: 320px;
     background-image: url(../assets/img/bitcoinbaby2x.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
-.background-img{
-    display: flex;
-    place-content: center;
-}
-.texto{
-    margin-top: 55px;
+
+.background-img h2{
+    padding-top: 60px;
     font-size: 2.4rem;
     font-weight: bold;
-    list-style: 2.6rem;
+    line-height: 2.6rem;
     color: var(--just-white);
+}
+.main-plans-container{
+    width: 100%;
+    min-width: 350px;
+    max-width: 500px;
+    height: auto;
 }
