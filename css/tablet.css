@@ -1,0 +1,10 @@
+.main-tables-container, .second-tables-container{
+    display: flex;
+}
+.product-cards--container{
+    display: flex;
+    flex-flow: wrap;
+}
+.plans-container--slider{
+    justify-content: center;
+}
